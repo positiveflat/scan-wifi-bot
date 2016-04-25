@@ -1,5 +1,5 @@
 # scan-wifi-bot
-Bot which scans specified wifi access points and sends notification to slack.
+Bot which scans specified wifi access points and sends notification to slack when it is detected.
 
 ## Prerequisite
 - `<token>:` slack bot user and its token (see also https://api.slack.com/bot-users)
