@@ -6,22 +6,22 @@ Bot which scans specified wifi access points and sends notification to slack.
 - `<channel id>:` slack channle id (You can get from https://api.slack.com/methods/channels.list/test by clicking "Test Method" button)
 
 ## Setup
-- 1.  Add channel id to the line 6 on bot.js
+##### 1.  Add channel id to the line 6 on bot.js
 ```js
 var channel = <channel id>;
 ```
 
-- 2. Update FOO-* to any SSID name
+##### 2. Update FOO-* to any SSID name
 ```js
     exec(airport + ' -s | grep FOO-*', function(err, stdout, stderr){
 ```
 
-- 3. Edit message on bot.js (
+##### 3. Edit message on bot.js (
 ```js
 var message = <message>;
 ```
 
-- 4. install node modules
+##### 4. install node modules
 Run the following command on terminal.
 ```bash
 $npm install
